@@ -1,0 +1,1448 @@
+{
+  "layerInfos": [
+    {
+      "name": "Persil Pelanggaran RDTR",
+      "id": "persil_tanah_fix_15_2050",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/persil_tanah_fix_15/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Join_Count",
+            "alias": "Join_Count",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TARGET_FID",
+            "alias": "TARGET_FID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Kode_P",
+            "alias": "Kode_P",
+            "show": false
+          },
+          {
+            "name": "KETERANGAN",
+            "alias": "KETERANGAN",
+            "show": false
+          },
+          {
+            "name": "NIB",
+            "alias": "NIB",
+            "show": true
+          },
+          {
+            "name": "D_NOP",
+            "alias": "NOP",
+            "show": true
+          },
+          {
+            "name": "D_LUAS",
+            "alias": "Luas",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PERSILPASI",
+            "alias": "PERSILPASI",
+            "show": false
+          },
+          {
+            "name": "PENGGUNAAN",
+            "alias": "PENGGUNAAN",
+            "show": false
+          },
+          {
+            "name": "NILAI",
+            "alias": "NILAI",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TIPEHAK",
+            "alias": "TIPEHAK",
+            "show": true
+          },
+          {
+            "name": "NUMERIKID",
+            "alias": "NUMERIKID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "VALIDATORG",
+            "alias": "VALIDATORG",
+            "show": false
+          },
+          {
+            "name": "SUMBERGEOM",
+            "alias": "SUMBERGEOM",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "WILAYAHID",
+            "alias": "WILAYAHID",
+            "show": false
+          },
+          {
+            "name": "KANTORID",
+            "alias": "KANTORID",
+            "show": false
+          },
+          {
+            "name": "KANTORINDU",
+            "alias": "KANTORINDU",
+            "show": false
+          },
+          {
+            "name": "TIPEPRODUK",
+            "alias": "TIPEPRODUK",
+            "show": false
+          },
+          {
+            "name": "TAHUN",
+            "alias": "TAHUN",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LUAS",
+            "alias": "LUAS",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LUASPETA",
+            "alias": "LUASPETA",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POLY_AREA",
+            "alias": "POLY_AREA",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NAMZON",
+            "alias": "NAMZON",
+            "show": true
+          },
+          {
+            "name": "NAMOBJ",
+            "alias": "NAMOBJ",
+            "show": true
+          },
+          {
+            "name": "KDH",
+            "alias": "KDH",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "KLB",
+            "alias": "KLB",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "KDB",
+            "alias": "KDB",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BGN_VOL_AL",
+            "alias": "Volume Bangunan Atap (m3)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BGN_TINGGI",
+            "alias": "Tinggi Bangunan (m)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BGN_VOL_BI",
+            "alias": "BGN_VOL_BI",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BGN_TINGKT",
+            "alias": "Jumlah Lantai",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "luas_poly",
+            "alias": "luas_poly",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BGN_AREA_M",
+            "alias": "BGN_AREA_M",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "JALAN_OP",
+            "alias": "Jalan OP",
+            "show": true
+          },
+          {
+            "name": "RW_OP",
+            "alias": "RW OP",
+            "show": true
+          },
+          {
+            "name": "RT_OP",
+            "alias": "RT_OP",
+            "show": true
+          },
+          {
+            "name": "LUAS_BUMI_",
+            "alias": "Luas Bumi Sismiop (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LUAS_BNG_S",
+            "alias": "Luas Bangunan Sismiop (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NJOP_BUMI_",
+            "alias": "NJOP Bumi Sismiop (Rp.)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NJOP_BNG_S",
+            "alias": "NJOP Bangunan Sismiop (Rp.)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "KD_ZNT",
+            "alias": "Kode ZNT",
+            "show": true
+          },
+          {
+            "name": "NJOP_BU_M",
+            "alias": "NJOP_BU_M",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NJOP_KR_BY",
+            "alias": "NJOP_KR_BY",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Pot_PJK",
+            "alias": "Potensi Kenaikan Pajak (Rp)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LUAS_KDB",
+            "alias": "Luas KDB (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PEL_KDB",
+            "alias": "Pelanggaran KDB",
+            "show": true
+          },
+          {
+            "name": "PEL_KLB",
+            "alias": "Pelanggaran KLB",
+            "show": true
+          },
+          {
+            "name": "PEL_KDH",
+            "alias": "Pelanggaran KDH",
+            "show": true
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "NAMZON",
+      "isDescending": false
+    },
+    {
+      "name": "Persil",
+      "id": "Smartcity_080920_6339",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Smartcity_080920/FeatureServer/1",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "kode_B",
+            "alias": "Kode Bangunan",
+            "show": true
+          },
+          {
+            "name": "NIB",
+            "alias": "NIB",
+            "show": true
+          },
+          {
+            "name": "M2_PERSIL",
+            "alias": "Luas Persil (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D_NOP",
+            "alias": "NOP",
+            "show": false
+          },
+          {
+            "name": "KD_PROPINS",
+            "alias": "Kode Prov.",
+            "show": true
+          },
+          {
+            "name": "KD_DATI2",
+            "alias": "Kode Kab/Kota",
+            "show": true
+          },
+          {
+            "name": "KD_KECAMAT",
+            "alias": "Kode Kec.",
+            "show": true
+          },
+          {
+            "name": "KD_KELURAH",
+            "alias": "Kode. Desa/Kel.",
+            "show": true
+          },
+          {
+            "name": "KD_BLOK",
+            "alias": "Kode Blok/Kav.",
+            "show": true
+          },
+          {
+            "name": "NO_URUT",
+            "alias": "NO_URUT",
+            "show": false
+          },
+          {
+            "name": "D_NOP_1",
+            "alias": "NOP",
+            "show": true
+          },
+          {
+            "name": "KD_JNS_OP",
+            "alias": "KD_JNS_OP",
+            "show": false
+          },
+          {
+            "name": "NM_WP_SPPT",
+            "alias": "Nama WP",
+            "show": true
+          },
+          {
+            "name": "JLN_WP_SPP",
+            "alias": "Alamat WP",
+            "show": true
+          },
+          {
+            "name": "BLOK_KAV_N",
+            "alias": "Blok/Kav. WP",
+            "show": true
+          },
+          {
+            "name": "RW_WP_SPPT",
+            "alias": "RW WP",
+            "show": true
+          },
+          {
+            "name": "RT_WP_SPPT",
+            "alias": "RT WP",
+            "show": true
+          },
+          {
+            "name": "KELURAHAN_",
+            "alias": "Kel. WP",
+            "show": true
+          },
+          {
+            "name": "KEC",
+            "alias": "Kec. WP",
+            "show": true
+          },
+          {
+            "name": "KOTA_WP_SP",
+            "alias": "Kota WP",
+            "show": true
+          },
+          {
+            "name": "JALAN_OP",
+            "alias": "Alamat OP",
+            "show": true
+          },
+          {
+            "name": "BLOK_KAV_1",
+            "alias": "Blok/Kav. OP",
+            "show": true
+          },
+          {
+            "name": "RW_OP",
+            "alias": "RW OP",
+            "show": true
+          },
+          {
+            "name": "RT_OP",
+            "alias": "RT OP",
+            "show": true
+          },
+          {
+            "name": "LUAS_BUMI_",
+            "alias": "Luas Bumi (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LUAS_BNG_S",
+            "alias": "Luas Bangunan (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NJOP_BUMI_",
+            "alias": "NJOP Bumi (Rp.)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NJOP_BNG_S",
+            "alias": "NJOP Bangunan (Rp.)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "KD_ZNT",
+            "alias": "Kode ZNT",
+            "show": true
+          },
+          {
+            "name": "TIPEHAK",
+            "alias": "Tipe Hak",
+            "show": true
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape_Area",
+            "alias": "Shape_Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LU_TEXTBPN",
+            "alias": "Luas Tekstual BPN",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "KODE_P",
+            "alias": "KODE_P",
+            "show": false
+          },
+          {
+            "name": "S_TING_BGN",
+            "alias": "Tinggi Bangunan (m)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "S_VOL_BGN",
+            "alias": "Volume Bangunan (m3)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "S_VOL_A_BG",
+            "alias": "Volume Bangunan Atap (m3)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "S_LU_BGN",
+            "alias": "Luas Bangunan",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "S_TINGKT_B",
+            "alias": "Jumlah lantai",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "KETERANGAN",
+            "alias": "Keterangan",
+            "show": true
+          },
+          {
+            "name": "SE_LU_BGN",
+            "alias": "Selisih Luas Bangunan (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NJOP_PER_B",
+            "alias": "NJOP Per Bangunan (Rp.)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "kur_njop_b",
+            "alias": "Selisih NJOP (Rp)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Slsh_bgn",
+            "alias": "Selisih Luas Bangunan",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Pot_PJK",
+            "alias": "Potensi Kenaikan Pajak (Rp)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "kode_B",
+      "isDescending": false
+    },
+    {
+      "name": "Jalan",
+      "id": "Depok_Road_OSM_9411",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Depok_Road_OSM/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "osm_id",
+            "alias": "osm_id",
+            "show": false
+          },
+          {
+            "name": "code",
+            "alias": "code",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "fclass",
+            "alias": "Kelas Jalan",
+            "show": true
+          },
+          {
+            "name": "name",
+            "alias": "Nama",
+            "show": true
+          },
+          {
+            "name": "ref",
+            "alias": "ref",
+            "show": false
+          },
+          {
+            "name": "oneway",
+            "alias": "oneway",
+            "show": false
+          },
+          {
+            "name": "maxspeed",
+            "alias": "maxspeed",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "layer",
+            "alias": "layer",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "bridge",
+            "alias": "bridge",
+            "show": false
+          },
+          {
+            "name": "tunnel",
+            "alias": "tunnel",
+            "show": false
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "fclass",
+      "isDescending": false
+    },
+    {
+      "name": "Bangunan",
+      "id": "Smartcity_080920_4474",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Smartcity_080920/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "NIB_1",
+            "alias": "NIB",
+            "show": true
+          },
+          {
+            "name": "kode_B",
+            "alias": "Kode Bangunan",
+            "show": true
+          },
+          {
+            "name": "height_min",
+            "alias": "Tinggi Bangunan Ditinggali (m)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "volume",
+            "alias": "Volume Bangunan (m3)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TINGKAT_",
+            "alias": "Jumlah Lantai",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "tingkat",
+            "alias": "tingkat",
+            "show": false
+          },
+          {
+            "name": "all_volume",
+            "alias": "Volume Atap & Bangunan (m3)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D_LUAS",
+            "alias": "Luas Bangunan (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "kode_B_1",
+            "alias": "kode_B_1",
+            "show": false
+          },
+          {
+            "name": "M2_PERSIL",
+            "alias": "Luas Persil (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "D_NOP_1",
+            "alias": "NOP",
+            "show": true
+          },
+          {
+            "name": "KD_PROPINS",
+            "alias": "Kode Prov.",
+            "show": true
+          },
+          {
+            "name": "KD_DATI2",
+            "alias": "Kode Kab/Kota",
+            "show": true
+          },
+          {
+            "name": "KD_KECAMAT",
+            "alias": "Kode Kec.",
+            "show": true
+          },
+          {
+            "name": "KD_KELURAH",
+            "alias": "Kode Desa/Kel.",
+            "show": true
+          },
+          {
+            "name": "KD_BLOK",
+            "alias": "Kode Blok/Kav.",
+            "show": true
+          },
+          {
+            "name": "NO_URUT",
+            "alias": "NO_URUT",
+            "show": false
+          },
+          {
+            "name": "D_NOP_12",
+            "alias": "D_NOP_12",
+            "show": false
+          },
+          {
+            "name": "KD_JNS_OP",
+            "alias": "KD_JNS_OP",
+            "show": false
+          },
+          {
+            "name": "NM_WP_SPPT",
+            "alias": "Nama WP",
+            "show": true
+          },
+          {
+            "name": "JLN_WP_SPP",
+            "alias": "ALamat WP",
+            "show": true
+          },
+          {
+            "name": "BLOK_KAV_N",
+            "alias": "Blok/Kav. WP",
+            "show": true
+          },
+          {
+            "name": "RW_WP_SPPT",
+            "alias": "RW WP",
+            "show": true
+          },
+          {
+            "name": "RT_WP_SPPT",
+            "alias": "RT WP",
+            "show": true
+          },
+          {
+            "name": "KELURAHAN_",
+            "alias": "Desa/Kel. WP",
+            "show": true
+          },
+          {
+            "name": "KEC",
+            "alias": "Kec. WP",
+            "show": true
+          },
+          {
+            "name": "KOTA_WP_SP",
+            "alias": "Kota WP.",
+            "show": true
+          },
+          {
+            "name": "JALAN_OP",
+            "alias": "Alamat OP",
+            "show": true
+          },
+          {
+            "name": "BLOK_KAV_1",
+            "alias": "Blok/Kav. OP",
+            "show": true
+          },
+          {
+            "name": "RW_OP",
+            "alias": "RW OP",
+            "show": true
+          },
+          {
+            "name": "RT_OP",
+            "alias": "RT OP",
+            "show": true
+          },
+          {
+            "name": "LUAS_BUMI_",
+            "alias": "Luas Bumi (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LUAS_BNG_S",
+            "alias": "Luas Bangunan (m2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NJOP_BUMI_",
+            "alias": "NJOP Bumi (Rp.)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "NJOP_BNG_S",
+            "alias": "NJOP Bangunan (Rp.)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "KD_ZNT",
+            "alias": "Kode ZNT",
+            "show": true
+          },
+          {
+            "name": "TIPEHAK_1",
+            "alias": "Tipe Hak",
+            "show": true
+          },
+          {
+            "name": "LU_TEXTBPN",
+            "alias": "Luas Tekstual BPN",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "P_ST_KA",
+            "alias": "Jarak thdp St. KA",
+            "show": true
+          },
+          {
+            "name": "P_TOL",
+            "alias": "Jarak thdp Tol",
+            "show": true
+          },
+          {
+            "name": "P_MASJID",
+            "alias": "Jarak thdp Masjid",
+            "show": true
+          },
+          {
+            "name": "KETERANGAN",
+            "alias": "Keterangan",
+            "show": true
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "TIPEHAK_1",
+      "isDescending": false
+    },
+    {
+      "name": "RDTR DEPOK",
+      "id": "RDTR_DEPOK_2018_1950",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/RDTR_DEPOK_2018/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "NAMOBJ",
+            "alias": "Pola Ruang",
+            "show": true
+          },
+          {
+            "name": "NAMZON",
+            "alias": "Nama Zona",
+            "show": true
+          },
+          {
+            "name": "KODZON",
+            "alias": "Kode Zona",
+            "show": true
+          },
+          {
+            "name": "NAMSZN",
+            "alias": "Nama Sub Zonasi",
+            "show": true
+          },
+          {
+            "name": "KODSZN",
+            "alias": "Kode Sub Zonasi",
+            "show": true
+          },
+          {
+            "name": "NAMBWP",
+            "alias": "Nama BWP",
+            "show": true
+          },
+          {
+            "name": "NASBWP",
+            "alias": "Nama Sub BWP",
+            "show": true
+          },
+          {
+            "name": "KODBLK",
+            "alias": "KODBLK",
+            "show": true
+          },
+          {
+            "name": "KODSBL",
+            "alias": "KODSBL",
+            "show": true
+          },
+          {
+            "name": "WADMKC",
+            "alias": "Kecamatan",
+            "show": true
+          },
+          {
+            "name": "WADMKD",
+            "alias": "Kelurahan",
+            "show": true
+          },
+          {
+            "name": "KKOP_1",
+            "alias": "KKOP_1",
+            "show": false
+          },
+          {
+            "name": "LP2B_2",
+            "alias": "LP2B_2",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "KRB_03",
+            "alias": "KRB_03",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TOD_04",
+            "alias": "TOD_04",
+            "show": false
+          },
+          {
+            "name": "TEB_05",
+            "alias": "TEB_05",
+            "show": false
+          },
+          {
+            "name": "CAGBUD",
+            "alias": "CAGBUD",
+            "show": false
+          },
+          {
+            "name": "HANKAM",
+            "alias": "HANKAM",
+            "show": false
+          },
+          {
+            "name": "PUSLIT",
+            "alias": "PUSLIT",
+            "show": false
+          },
+          {
+            "name": "TPZ_00",
+            "alias": "TPZ_00",
+            "show": false
+          },
+          {
+            "name": "LUASHA",
+            "alias": "LUASHA",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "PP",
+            "alias": "Perda",
+            "show": true
+          },
+          {
+            "name": "BA",
+            "alias": "BA",
+            "show": false
+          },
+          {
+            "name": "CT",
+            "alias": "CT",
+            "show": false
+          },
+          {
+            "name": "BT",
+            "alias": "BT",
+            "show": false
+          },
+          {
+            "name": "NOTHPR",
+            "alias": "Sumber",
+            "show": true
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "NAMZON",
+      "isDescending": false
+    },
+    {
+      "name": "Zona Nilai Tanah (ZNT)",
+      "id": "Zona_Nilai_Tanah__ZNT__ATRBPN_Depok_5354",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Zona_Nilai_Tanah_(ZNT)_ATRBPN_Depok/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "NOMORZONE",
+            "alias": "No. Zona",
+            "show": true
+          },
+          {
+            "name": "NILAI",
+            "alias": "NILAI",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "MEAN",
+            "alias": "Nilai ZNT",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "VALIDSEJAK",
+            "alias": "Valid Sejak",
+            "show": true
+          },
+          {
+            "name": "VALIDSAMPA",
+            "alias": "Valid Hingga",
+            "show": true
+          },
+          {
+            "name": "KANTORID",
+            "alias": "KANTORID",
+            "show": false
+          },
+          {
+            "name": "TAHUNDIBUA",
+            "alias": "Tahun Dibuat",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "BULANDIBUA",
+            "alias": "BULANDIBUA",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "USERUPDATE",
+            "alias": "USERUPDATE",
+            "show": false
+          },
+          {
+            "name": "LASTUPDATE",
+            "alias": "Terakhir Update",
+            "show": true
+          },
+          {
+            "name": "NOMORSK",
+            "alias": "No. SK",
+            "show": true
+          },
+          {
+            "name": "STATUSGEOM",
+            "alias": "STATUSGEOM",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "RANGENILAI",
+            "alias": "Range Nilai",
+            "show": true
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "MEAN",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": true
+}

@@ -1,0 +1,24 @@
+{
+  "selectionColor": "#00FFFF",
+  "selectionMode": "partial",
+  "enableByDefault": true,
+  "allowExport": false,
+  "includeRuntimeLayers": true,
+  "geometryTypes": [
+    "EXTENT"
+  ],
+  "layerState": {
+    "Footprint_Lengkap_2868": {
+      "selected": true
+    },
+    "5fa715ea7af347038fb364c676f133e1": {
+      "selected": true
+    },
+    "c02079f2f2c0440b870e274d395c1a5a": {
+      "selected": true
+    },
+    "Ortofoto_651": {
+      "selected": false
+    }
+  }
+}
